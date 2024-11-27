@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Disease Identifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Crop Disease Identifier</h1>
+
+        <div class="symptom-group">
+            <h3>Select Symptoms:</h3>
+            <label><input type="checkbox" value="Yellowing leaves"> Yellowing leaves</label>
+            <label><input type="checkbox" value="Leaf spots"> Leaf spots</label>
+            <label><input type="checkbox" value="Stem rot"> Stem rot</label>
+            <label><input type="checkbox" value="Fruit lesions"> Fruit lesions</label>
+            <label><input type="checkbox" value="Stunted growth"> Stunted growth</label>
+            <label><input type="checkbox" value="Moldy growth"> Moldy growth</label>
+            <label><input type="checkbox" value="Leaf curling"> Leaf curling</label>
+            <label><input type="checkbox" value="Rust-colored spots"> Rust-colored spots</label>
+            <label><input type="checkbox" value="Blighted foliage"> Blighted foliage</label>
+            <label><input type="checkbox" value="Powdery mildew"> Powdery mildew</label>
+        </div>
+
+        <button onclick="identifyDisease()">Identify Disease</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
