@@ -9,6 +9,11 @@ body {
     min-height: 100vh;
     color: #333;
 }
+.icon {
+    border-radius: 1.5rem; /* Equivalent to rounded-3xl */
+    width: 6rem; /* Equivalent to w-24 */
+    transform: rotate(-12deg); /* Equivalent to -rotate-12 */
+}
 
 .container {
     width: 100%;
